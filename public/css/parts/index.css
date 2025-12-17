@@ -1,0 +1,132 @@
+.hero-section {
+    margin: 2rem 0;
+}
+
+.carousel-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+    padding: 3rem 2rem 2rem;
+    color: white;
+}
+
+.carousel-overlay h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.filters-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    margin: 2rem 0;
+}
+
+.filters-form {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filter-group {
+    flex: 1;
+    min-width: 200px;
+}
+
+.part-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.part-code {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+.part-manufacturer {
+    color: #95a5a6;
+    font-size: 0.9rem;
+}
+
+.part-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.part-price {
+    font-size: 1.5rem;
+    color: var(--accent-color);
+}
+
+.part-actions {
+    margin-top: auto;
+}
+
+.btn-block {
+    width: 100%;
+    text-align: center;
+}
+
+.badge-primary {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.no-results {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 3rem;
+}
+
+.no-results i {
+    font-size: 4rem;
+    color: var(--border-color);
+    margin-bottom: 1rem;
+}
+
+.pagination-wrapper .pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.pagination-wrapper .page-item {
+    margin: 0 4px;
+}
+
+.pagination-wrapper .page-link {
+    font-size: 14px;
+    padding: 6px 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    min-width: 32px;
+}
+
+.pagination-wrapper .page-link svg,
+.pagination-wrapper .page-link i {
+    font-size: 12px !important;
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.pagination-wrapper .page-link span[aria-hidden="true"] {
+    display: block;
+}
+
+.pagination-wrapper .page-link span:not([aria-hidden="true"]) {
+    display: none;    
+}

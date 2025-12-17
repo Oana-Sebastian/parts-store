@@ -1,0 +1,129 @@
+.page-header {
+    margin: 2rem 0;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.empty-state i {
+    font-size: 5rem;
+    color: var(--border-color);
+    margin-bottom: 1rem;
+}
+
+.empty-state h2 {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.orders-table-container {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
+}
+
+.orders-table {
+    margin: 0;
+}
+
+.part-link {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.part-link:hover {
+    text-decoration: underline;
+}
+
+.part-code {
+    font-size: 0.875rem;
+    color: #7f8c8d;
+    margin-top: 0.25rem;
+}
+
+.order-thumbnail {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.no-image {
+    width: 60px;
+    height: 60px;
+    background: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: var(--border-color);
+}
+
+.inline-form {
+    display: inline;
+}
+
+.text-muted {
+    color: #95a5a6;
+}
+
+.badge-info {
+    background-color: #3498db;
+    color: white;
+}
+
+.orders-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.stat-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: transform 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card i {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+}
+
+.stat-info h3 {
+    font-size: 2rem;
+    margin: 0;
+    color: var(--text-color);
+}
+
+.stat-info p {
+    margin: 0;
+    color: #7f8c8d;
+}
+
+@media (max-width: 768px) {
+    .orders-table-container {
+        overflow-x: auto;
+    }
+    
+    .orders-stats {
+        grid-template-columns: 1fr;
+    }
+}
