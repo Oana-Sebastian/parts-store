@@ -5,16 +5,15 @@ A modern parts management application built with Laravel 12, featuring authentic
 ## Tech Stack
 
 - **Backend**: Laravel 12.x (PHP 8.2+)
-- **Frontend**: TailwindCSS 3.x, Alpine.js 3.x
+- **Frontend**: HTML5, Custom CSS3, Laravel Blade
 - **Authentication**: Laravel Breeze
-- **Build Tool**: Vite 7.x
 - **Database**: SQLite (default) / MySQL / PostgreSQL
 
 ## Features
 
-- 🔐 User authentication (login, registration, password reset)
+- 🔐 User authentication (login, registration)
 - 📦 Parts inventory management
-- 🎨 Modern, responsive UI with TailwindCSS
+- 🎨 Clean, responsive UI built with custom CSS and Font Awesome
 - ⚡ Fast development with Vite hot module replacement
 - 🧪 Testing suite with PHPUnit
 - 🚀 Queue support for background jobs
