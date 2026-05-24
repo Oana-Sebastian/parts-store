@@ -97,5 +97,3 @@ class OrderTest extends TestCase
         $this->assertEquals('cancelled', $order->fresh()->status);
     }
 }
-
-//ion.chirobocia@unitbv.ro
